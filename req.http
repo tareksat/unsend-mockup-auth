@@ -1,0 +1,22 @@
+POST http://localhost:3020/api/v1/auth/signup
+Content-Type: application/json
+
+{
+  "first_name": "selim",
+  "last_name": "tarek",
+  "gender": "male",
+  "birth_date": "1982-09-20",
+  "user_name": "s.tarek",
+  "phone_number": "+201019807579",
+  "password": "password"
+}
+###
+POST http://localhost:3020/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "user_name": "bp",
+  "password": "516bp216"
+}
+
+###
